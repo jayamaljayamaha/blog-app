@@ -30,6 +30,12 @@ docker pull jayamaljayamaha/blog-app-image:0.0.1
 ```
 docker run -p 8080:8080 jayamaljayamaha/blog-app-image:0.0.1
 ```
+3. You can run it as a normal java project via your IDE, hust run the main class via IDE
+4. You can run via gradle by executing folowwing gradle wrapper command
+```
+gradlew bootRun
+```
+
 Now the service is running on your machine on port 8080
 
 ### API Doc
@@ -39,3 +45,8 @@ I have used open API 3 swagger dpcumentation to document this API. So you can ea
 * Just send a request with default payload to that end point and then it will return back the jwt token
 * After obtaining the token you need to authorize the api. In order to do that click the authroize button and paste the token then click authorize
 * Now you are authorize to intaract with resources.
+
+swagger API doc can be accessd via following after the service is up and running
+```
+http://localhost:8080/swagger-ui/index.html
+```
