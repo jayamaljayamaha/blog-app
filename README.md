@@ -11,8 +11,8 @@ Technologies used
 
 ### How to run the API
 
-I have added a docker file to the project, so only you need to eun the docker demon in your machine in order to run this, nothing more. 
-There are two ways to run the docker image
+I have added a docker file to the project, so only you need to run the docker demon in your machine in order to run this, nothing more. 
+There are some ways to run the application
 
 1. You can run below command in order to create the image (Should run command within the project folder)
 ```
