@@ -31,7 +31,7 @@ docker pull jayamaljayamaha/blog-app-image:0.0.1
 docker run -p 8080:8080 jayamaljayamaha/blog-app-image:0.0.1
 ```
 3. You can run it as a normal java project via your IDE, hust run the main class via IDE
-4. You can run via gradle by executing folowwing gradle wrapper command
+4. You can run via gradle by executing following gradle wrapper command
 ```
 gradlew bootRun
 ```
