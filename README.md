@@ -17,6 +17,8 @@ There are two ways to run the docker image
 1. You can run below command in order to create the image (Should run command within the project folder)
 ```
 docker build -t blog-app-image:0.0.1 .
+```
+```
 docker run -p 8080:8080 blog-app-image:0.0.1
 ```
 Now the service is running on your machine on port 8080
@@ -24,6 +26,8 @@ Now the service is running on your machine on port 8080
 2. I have directly uploaded the build image to docker hub, so you can download that by docker hub and run like follows
 ```
 docker pull jayamaljayamaha/blog-app-image:0.0.1
+```
+```
 docker run -p 8080:8080 jayamaljayamaha/blog-app-image:0.0.1
 ```
 Now the service is running on your machine on port 8080
